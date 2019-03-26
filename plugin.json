@@ -8,20 +8,14 @@
 
 	],
 	"staticDirs": {
-		"gallery": "./public"
+		"gallery": "./node_modules",
+		"public": "./public"
 	},
 	"scripts" : [
-		"public/vendor/jquery.mousewheel.min.js",
-		"public/vendor/fancybox/jquery.fancybox.js",
-		"public/asdvendor/fancybox/helpers/jquery.fancybox-buttons.js",
-		"public/vendor/fancybox/helpers/jquery.fancybox-media.js",
-		"public/vendor/fancybox/helpers/jquery.fancybox-thumbs.js",
+		"node_modules/lightgallery.js/dist/js/lightgallery.min.js",
 		"public/lib/main.js"
 	],
 	"css": [
-		"public/vendor/fancybox/jquery.fancybox.css",
-		"public/vendor/fancybox/helpers/jquery.fancybox-buttons.css",
-		"public/vendor/fancybox/helpers/jquery.fancybox-thumbs.css",
-		"public/gallery.css"
+		"node_modules/lightgallery.js/dist/css/lightgallery.css"
 	]
 }

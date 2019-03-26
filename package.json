@@ -31,5 +31,8 @@
   "readme": "",
   "readmeFilename": "README.md",
   "_id": "nodebb-plugin-gallery@0.0.1",
-  "_from": "nodebb-plugin-gallery@~0.0.1"
+  "_from": "nodebb-plugin-gallery@~0.0.1",
+  "dependencies": {
+    "lightgallery.js": "^1.1.3"
+  }
 }
